@@ -9,10 +9,11 @@ the following array of Integer objects: 783 99 472 182 264 543 356 295 692 491 9
 import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
-        int arr[] = {783, 99, 472, 182, 264, 543, 356, 295, 692, 491, 94};
+        String arr[] = {"joke", "book", "back", "dig", "desk", "word", "fish", "ward", "dish", "wit", "deed", "fast", "dog", "bend"};
 
-        System.out.println("Unordered array:\t" + Arrays.toString(arr));
-        RadixSort.radixIntSort(arr);
-        System.out.println("Sorted array:\t\t" + Arrays.toString(arr));
+        System.out.println("Unordered string array:\t" + Arrays.toString(arr));
+        RadixSort.radixStringSort(arr);
+        System.out.println("Sorted string array:\t" + Arrays.toString(arr));
+
     }
 }
